@@ -6,23 +6,6 @@ from openai import OpenAI
 
 load_dotenv()  # take environment variables
 
-def print_hello():
-    hello_world = "hello, world"
-    print(hello_world)
-
-def print_hello_parameters(hello_world):
-   print(hello_world)
-  
-def print_hello_return():
-    return "hello, Laura"
-
-
-print_hello()
-
-print_hello_parameters("Hello, world2")
-
-print_hello_return()
-
 #load enviroment variables from .env file
 secret = os.getenv("SECRET")
 
